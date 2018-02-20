@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>JavaScript basic animation</title>
+<script src="test.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <span class="card-title">Temperature Conversion Calculator<a style="float:right">tushar1907</a></span>
+                            
+                            <div class="row">
+                              <form>
+                                  <label id='1'>Temperature in Celsius:</label>
+                                  <input type='text' id='first'></input><br>
+                                  <input type='button' class='multiply btn blue' onclick="exchange()" value="Exchange" ></input><br>
+                                  <label id='2'>Temperature in Fahrenheit:</label>
+                                  <input type='text' id='second'></input><br>
+                                  <input type='button' class='multiply btn black' onclick="convert()" value="Convert" ></input>
+                                  <!-- <input type='button' class='divide btn black' onclick="divide()" value="Divide"></input><br> -->
+                                  
+                              </form>
+                            </div>     
+                        </div>
+                    </div>                     
+                </div>
+            </div>  
+        </div>  
+        </div>   
+  
+
+</body> 
+
+
+</html>
